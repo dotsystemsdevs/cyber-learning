@@ -3,9 +3,9 @@
 ## Vad jag har lärt mig
 
 ### CIA-triaden
-- Se [confidentiality.md](confidentiality.md)
-- Se [integrity.md](integrity.md)
-- Se [availability.md](availability.md)
+- Se [confidentiality.md](module-1/confidentiality.md)
+- Se [integrity.md](module-1/integrity.md)
+- Se [availability.md](module-1/availability.md)
 
 ### Etisk Hacking
 - Etisk hacking = auktoriserat testande av system för att hitta sårbarheter innan angripare gör det
