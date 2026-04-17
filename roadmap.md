@@ -5,6 +5,11 @@
 
 ## FAS 1 — Grunder
 
+**Efter denna fas ska du kunna:**
+- Förstå vad cybersäkerhet är och varför det finns
+- Knäcka enkla chiffer och koda/avkoda Base64 och hex
+- Lösa enkla CTF-utmaningar på egen hand
+
 - [ ] Gå till **picoctf.org** → klicka "Register" → skapa konto
 - [ ] Gå till **tryhackme.com** → klicka "Join Free" → skapa konto
 - [ ] Gå till **cryptohack.org** → klicka "Register" → skapa konto
@@ -27,6 +32,11 @@
 
 ## FAS 2 — Linux & Nätverk
 
+**Efter denna fas ska du kunna:**
+- Navigera och köra kommandon i Linux-terminalen utan att googla
+- Förklara hur IP, DNS, TCP och OSI-modellen fungerar
+- Skanna ett nätverk med nmap och läsa trafik i Wireshark
+
 - [ ] Gå till **tryhackme.com/room/introtonetworking** → klara rummet (IP-adresser)
 - [ ] Gå till **tryhackme.com/room/dnsindetail** → klara rummet (DNS)
 - [ ] Gå till **tryhackme.com** → sök "Linux Fundamentals Part 1" → klara rummet
@@ -46,6 +56,11 @@
 
 ## FAS 3 — Webbattacker
 
+**Efter denna fas ska du kunna:**
+- Utföra SQL injection mot en inloggningssida
+- Injicera XSS-kod i en webbsida
+- Förklara OWASP Top 10 och hur varje attack fungerar
+
 - [ ] Gå till **portswigger.net/web-security/sql-injection** → läs teorin
 - [ ] Gå till **portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data** → klara lab
 - [ ] Gå till **portswigger.net/web-security/sql-injection/lab-login-bypass** → klara lab
@@ -64,6 +79,11 @@
 
 ## FAS 4 — HackTheBox
 
+**Efter denna fas ska du kunna:**
+- Ta dig in i en riktig maskin från scratch (recon → exploit → root)
+- Eskalera rättigheter från vanlig användare till admin/root
+- Skriva ett eget Python-script för att automatisera en attack
+
 - [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Meow"
 - [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Fawn"
 - [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Dancing"
@@ -79,6 +99,11 @@
 ---
 
 ## FAS 5 — CTF-tävlingar & Portfolio
+
+**Efter denna fas ska du kunna:**
+- Tävla i live CTF mot andra och lösa utmaningar under tidspress
+- Förklara dina lösningar skriftligt i writeups
+- Ha ett synligt portfolio som visar din tekniska nivå
 
 - [ ] Gå till **ctftime.org** → hitta en kommande CTF → registrera dig → delta
 - [ ] Lös minst 5 utmaningar i live CTF
