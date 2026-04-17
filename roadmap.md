@@ -1,32 +1,32 @@
-# Kursplan — Cybersoldat
-**Nivå:** Nybörjare → Avancerad
-**Upplägg:** 1 timme per dag, självstudier hemifrån
-**Examination:** Varje modul avslutas med ett praktiskt prov du måste klara
+# Curriculum — Cyber Operations
+**Level:** Beginner → Advanced
+**Format:** 1 hour per day, fully self-study from home
+**Examination:** Each module ends with a practical exam you must complete before moving on
 
 ---
 
-## MODUL 1 — Introduktion till Cybersäkerhet
+## MODULE 1 — Introduction to Cybersecurity
 
-**Beskrivning:**
-Innan du kan attackera eller försvara system måste du förstå grunderna — vad cybersäkerhet är, hur angripare tänker och hur information skyddas. Du lär dig också att knäcka enkla chiffer, vilket är grunden för all kryptografi.
+**Description:**
+Before you can attack or defend systems you need to understand the fundamentals — what cybersecurity is, how attackers think, and how information is protected. You also learn to break basic ciphers, which is the foundation of all cryptography.
 
-**Förkunskapskrav:** Inga
+**Prerequisites:** None
 
-**Efter denna modul kan du:**
-- Förklara CIA-triaden (Konfidentialitet, Integritet, Tillgänglighet)
-- Beskriva skillnaden mellan etisk och oetisk hacking
-- Avkoda och knäcka Caesar, ROT13, Base64 och hex
-- Lösa enkla CTF-utmaningar på egen hand
+**After this module you will be able to:**
+- Explain the CIA triad (Confidentiality, Integrity, Availability)
+- Describe the difference between ethical and unethical hacking
+- Decode and crack Caesar, ROT13, Base64 and hex
+- Solve basic CTF challenges on your own
 
 ---
 
-### Teori
+### Theory
 
-- [ ] Klara "Intro to Offensive Security" — CIA-triaden, etisk hacking → **tryhackme.com/room/introtooffensivesecurity**
-- [ ] Klara "Security Awareness" — hur angripare tänker → **tryhackme.com/room/securityawarenessintro**
-- [ ] Klara Introduction-sektionen — Caesar, ROT13, Base64, hex förklaras ett i taget → **cryptohack.org/courses/intro**
+- [ ] Complete "Intro to Offensive Security" — CIA triad, ethical hacking → **tryhackme.com/room/introtooffensivesecurity**
+- [ ] Complete "Security Awareness" — how attackers think → **tryhackme.com/room/securityawarenessintro**
+- [ ] Complete the Introduction section — Caesar, ROT13, Base64, hex explained one by one → **cryptohack.org/courses/intro**
 
-### Praktik
+### Practice
 
 - [ ] General Skills → "Obedient Cat" → **picoctf.org/practice**
 - [ ] General Skills → "Python Wrangling" → **picoctf.org/practice**
@@ -36,265 +36,265 @@ Innan du kan attackera eller försvara system måste du förstå grunderna — v
 - [ ] Cryptography → "Easy1" (Base64) → **picoctf.org/practice**
 
 ### Examination
-*Klara dessa utan hjälp. Om du fastnar — gå tillbaka till teorin.*
+*Complete these without help. If you get stuck — go back to the theory.*
 
 - [ ] Forensics → "information" → **picoctf.org/practice**
 - [ ] Web Exploitation → "Inspect HTML" → **picoctf.org/practice**
 - [ ] Web Exploitation → "Don't use client-side" → **picoctf.org/practice**
 
-**✅ MODUL 1 GODKÄND:** 9 picoCTF lösta
+**✅ MODULE 1 COMPLETE:** 9 picoCTF challenges solved
 
 ---
 
-## MODUL 2 — Linux & Nätverk
+## MODULE 2 — Linux & Networking
 
-**Beskrivning:**
-Nästan all hacking sker via Linux och nätverk. Du måste kunna terminalen utan att tänka och förstå hur data faktiskt rör sig mellan datorer. Utan dessa grunder kan du inte använda ett enda hackning-verktyg effektivt.
+**Description:**
+Almost all hacking happens through Linux and networks. You need to navigate the terminal without thinking and understand how data actually moves between computers. Without these fundamentals you cannot effectively use a single hacking tool.
 
-**Förkunskapskrav:** Modul 1
+**Prerequisites:** Module 1
 
-**Efter denna modul kan du:**
-- Navigera filsystemet och köra kommandon i Linux-terminalen
-- Förklara hur IP-adresser, DNS, TCP/UDP och OSI-modellen fungerar
-- Skanna öppna portar på ett nätverk med nmap
-- Fånga och läsa nätverkstrafik i Wireshark
+**After this module you will be able to:**
+- Navigate the file system and run commands in a Linux terminal
+- Explain how IP addresses, DNS, TCP/UDP and the OSI model work
+- Scan open ports on a network using nmap
+- Capture and read network traffic in Wireshark
 
 ---
 
-### Teori — Linux
+### Theory — Linux
 
-- [ ] Klara "Linux Fundamentals Part 1" — filsystem, grundkommandon → **tryhackme.com/room/linuxfundamentalspart1**
-- [ ] Klara "Linux Fundamentals Part 2" — rättigheter, processer → **tryhackme.com/room/linuxfundamentalspart2**
-- [ ] Klara "Linux Fundamentals Part 3" — scripting, avancerade kommandon → **tryhackme.com/room/linuxfundamentalspart3**
+- [ ] Complete "Linux Fundamentals Part 1" — file system, basic commands → **tryhackme.com/room/linuxfundamentalspart1**
+- [ ] Complete "Linux Fundamentals Part 2" — permissions, processes → **tryhackme.com/room/linuxfundamentalspart2**
+- [ ] Complete "Linux Fundamentals Part 3" — scripting, advanced commands → **tryhackme.com/room/linuxfundamentalspart3**
 
-### Teori — Nätverk
+### Theory — Networking
 
-- [ ] Klara "What is Networking?" — IP, MAC-adresser → **tryhackme.com/room/whatisnetworking**
-- [ ] Klara "DNS in Detail" — hur domännamn översätts → **tryhackme.com/room/dnsindetail**
-- [ ] Klara "HTTP in Detail" — hur webbsidor skickas → **tryhackme.com/room/httpindetail**
-- [ ] Klara "OSI Model" — de 7 lagren → **tryhackme.com/room/osimodelzi**
-- [ ] Klara "Packets & Frames" — TCP vs UDP → **tryhackme.com/room/packetsframes**
+- [ ] Complete "What is Networking?" — IP, MAC addresses → **tryhackme.com/room/whatisnetworking**
+- [ ] Complete "DNS in Detail" — how domain names are resolved → **tryhackme.com/room/dnsindetail**
+- [ ] Complete "HTTP in Detail" — how web pages are delivered → **tryhackme.com/room/httpindetail**
+- [ ] Complete "OSI Model" — the 7 layers → **tryhackme.com/room/osimodelzi**
+- [ ] Complete "Packets & Frames" — TCP vs UDP → **tryhackme.com/room/packetsframes**
 
-### Teori — Verktyg
+### Theory — Tools
 
-- [ ] Klara "Nmap" — hur du skannar nätverk → **tryhackme.com/room/furthernmap**
-- [ ] Klara "Wireshark: The Basics" — hur du läser trafik → **tryhackme.com/room/wiresharkthebasics**
+- [ ] Complete "Nmap" — how to scan networks → **tryhackme.com/room/furthernmap**
+- [ ] Complete "Wireshark: The Basics" — how to read traffic → **tryhackme.com/room/wiresharkthebasics**
 
 ### Examination
-*Klara dessa utan hjälp. De kräver att du kombinerar Linux och nätverkskunskap.*
+*Complete these without help. They require combining Linux and networking knowledge.*
 
 - [ ] Forensics → "Wireshark doo dooo do doo" → **picoctf.org/practice**
 - [ ] Forensics → "Packet Primo" → **picoctf.org/practice**
-- [ ] Totalt 20 lösta picoCTF utmaningar → **picoctf.org/practice**
+- [ ] Reach a total of 20 solved picoCTF challenges → **picoctf.org/practice**
 
-**✅ MODUL 2 GODKÄND:** Linux + nätverk + 20 picoCTF
-
----
-
-## MODUL 3 — Webbattacker
-
-**Beskrivning:**
-Webb är den vanligaste attackytan. Du lär dig hur de mest använda attackerna fungerar — SQL injection, XSS och autentiseringsattacker — och utför dem mot riktiga labbar. Allt baseras på OWASP Top 10, branschstandarden för webbsäkerhet.
-
-**Förkunskapskrav:** Modul 2
-
-**Efter denna modul kan du:**
-- Utföra SQL injection och logga in utan lösenord
-- Injicera och köra XSS-kod i en webbsida
-- Knäcka svag autentisering med brute force
-- Förklara och identifiera OWASP Top 10-sårbarheter
+**✅ MODULE 2 COMPLETE:** Linux + networking + 20 picoCTF
 
 ---
 
-### Teori — SQL Injection
+## MODULE 3 — Web Attacks
 
-- [ ] Läs teorin om hur databaser attackeras → **portswigger.net/web-security/sql-injection**
+**Description:**
+The web is the most common attack surface. You learn how the most widely used attacks work — SQL injection, XSS and authentication attacks — and execute them against real labs. Everything is based on the OWASP Top 10, the industry standard for web security.
 
-### Praktik — SQL Injection
+**Prerequisites:** Module 2
 
-- [ ] Klara lab "retrieve-hidden-data" — hämta dold data → **portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data**
-- [ ] Klara lab "login-bypass" — logga in utan lösenord → **portswigger.net/web-security/sql-injection/lab-login-bypass**
+**After this module you will be able to:**
+- Perform SQL injection and log in without a password
+- Inject and execute XSS code in a web page
+- Crack weak authentication with brute force
+- Identify and explain OWASP Top 10 vulnerabilities
 
-### Teori — XSS
+---
 
-- [ ] Läs teorin om hur JavaScript injiceras → **portswigger.net/web-security/cross-site-scripting**
+### Theory — SQL Injection
 
-### Praktik — XSS
+- [ ] Read the theory on how databases are attacked → **portswigger.net/web-security/sql-injection**
 
-- [ ] Klara lab "reflected XSS" → **portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded**
-- [ ] Klara lab "stored XSS" → **portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded**
+### Practice — SQL Injection
 
-### Teori — Autentisering & CSRF
+- [ ] Complete lab "retrieve-hidden-data" — extract hidden data → **portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data**
+- [ ] Complete lab "login-bypass" — log in without a password → **portswigger.net/web-security/sql-injection/lab-login-bypass**
 
-- [ ] Läs teorin om autentiseringsattacker → **portswigger.net/web-security/authentication**
-- [ ] Läs teorin om CSRF → **portswigger.net/web-security/csrf**
+### Theory — XSS
 
-### Praktik — Autentisering & CSRF
+- [ ] Read the theory on how JavaScript is injected → **portswigger.net/web-security/cross-site-scripting**
 
-- [ ] Klara 2 authentication-labbar → **portswigger.net/web-security/authentication/password-based**
-- [ ] Klara 1 CSRF-labb → **portswigger.net/web-security/csrf**
+### Practice — XSS
+
+- [ ] Complete lab "reflected XSS" → **portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded**
+- [ ] Complete lab "stored XSS" → **portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded**
+
+### Theory — Authentication & CSRF
+
+- [ ] Read the theory on authentication attacks → **portswigger.net/web-security/authentication**
+- [ ] Read the theory on CSRF → **portswigger.net/web-security/csrf**
+
+### Practice — Authentication & CSRF
+
+- [ ] Complete 2 authentication labs → **portswigger.net/web-security/authentication/password-based**
+- [ ] Complete 1 CSRF lab → **portswigger.net/web-security/csrf**
 
 ### Examination
-*Klara dessa utan hjälp och skriv en writeup om en av dem.*
+*Complete these without help and write a writeup for one of them.*
 
 - [ ] Web Exploitation → "SQL Direct" → **picoctf.org/practice**
 - [ ] Web Exploitation → "Cookies" → **picoctf.org/practice**
 - [ ] Web Exploitation → "More Cookies" → **picoctf.org/practice**
-- [ ] Totalt 30 lösta picoCTF utmaningar → **picoctf.org/practice**
-- [ ] Skriv 1 writeup → [ctf-writeups/picoctf/mall.md](ctf-writeups/picoctf/mall.md)
+- [ ] Reach a total of 30 solved picoCTF challenges → **picoctf.org/practice**
+- [ ] Write 1 writeup → [ctf-writeups/picoctf/mall.md](ctf-writeups/picoctf/mall.md)
 
-**✅ MODUL 3 GODKÄND:** 10 PortSwigger-labbar + 30 picoCTF + writeup
-
----
-
-## MODUL 4 — OSINT
-
-**Beskrivning:**
-Innan en angripare rör ett system samlar de information — öppet och passivt, utan att lämna spår. Du lär dig hur man kartlägger ett mål med bara öppen information: Google, metadata, bilder och exponerade enheter på internet.
-
-**Förkunskapskrav:** Modul 2
-
-**Efter denna modul kan du:**
-- Hitta information om ett mål utan att kontakta det
-- Använda Google Dorking för att hitta exponerade filer
-- Hitta exponerade enheter och tjänster via Shodan
-- Analysera bilder för att bestämma var de är tagna
+**✅ MODULE 3 COMPLETE:** 10 PortSwigger labs + 30 picoCTF + writeup
 
 ---
 
-### Teori
+## MODULE 4 — OSINT
 
-- [ ] Klara "Google Dorking" — hitta känslig info via Google → **tryhackme.com/room/googledorking**
-- [ ] Klara "Shodan" — kartlägg exponerade enheter → **tryhackme.com/room/shodan**
+**Description:**
+Before an attacker touches a system they gather information — openly and passively, without leaving a trace. You learn how to map a target using only open-source information: Google, metadata, images and internet-exposed devices.
+
+**Prerequisites:** Module 2
+
+**After this module you will be able to:**
+- Gather information about a target without contacting it
+- Use Google Dorking to find exposed files and directories
+- Discover exposed devices and services using Shodan
+- Analyze images to determine where they were taken
+
+---
+
+### Theory
+
+- [ ] Complete "Google Dorking" — find sensitive info via Google → **tryhackme.com/room/googledorking**
+- [ ] Complete "Shodan" — map exposed devices → **tryhackme.com/room/shodan**
 
 ### Examination
-*Klara dessa på egen hand — de testar om du kan kombinera OSINT-teknikerna.*
+*Complete these on your own — they test if you can combine OSINT techniques.*
 
-- [ ] Klara "OhSINT" — hitta allt om en person med bara en bild → **tryhackme.com/room/ohsint**
-- [ ] Klara "Searchlight - IMINT" — geolokalisera en bild → **tryhackme.com/room/searchlightosint**
+- [ ] Complete "OhSINT" — find everything about a person from a single image → **tryhackme.com/room/ohsint**
+- [ ] Complete "Searchlight - IMINT" — geolocate an image → **tryhackme.com/room/searchlightosint**
 - [ ] Forensics → "Trivial Flag Transfer Protocol" → **picoctf.org/practice**
 - [ ] Forensics → "Enhance!" → **picoctf.org/practice**
 - [ ] Forensics → "Sleuthkit Intro" → **picoctf.org/practice**
 
-**✅ MODUL 4 GODKÄND:** OSINT + passiv spaning + 3 forensics
+**✅ MODULE 4 COMPLETE:** OSINT + passive reconnaissance + 3 forensics
 
 ---
 
-## MODUL 5 — Logganalys & Incidenthantering
+## MODULE 5 — Log Analysis & Incident Response
 
-**Beskrivning:**
-En cybersoldat måste kunna läsa loggar och identifiera intrång. Du lär dig att följa ett angrepp steg för steg i loggdata — från första kontakt till full kompromiss — och hur man sätter upp system som automatiskt larmar vid misstänkt trafik.
+**Description:**
+A cyber operator must be able to read logs and identify intrusions. You learn to follow an attack step by step through log data — from first contact to full compromise — and how to set up systems that automatically alert on suspicious traffic.
 
-**Förkunskapskrav:** Modul 2 och 3
+**Prerequisites:** Module 2 and 3
 
-**Efter denna modul kan du:**
-- Läsa och förstå Windows- och Linux-systemloggar
-- Identifiera ett pågående intrång i loggdata
-- Använda Splunk för att söka och analysera loggar
-- Konfigurera Snort för att detektera attacker i nätverkstrafik
+**After this module you will be able to:**
+- Read and understand Windows and Linux system logs
+- Identify an ongoing intrusion in log data
+- Use Splunk to search and analyze logs
+- Configure Snort to detect attacks in network traffic
 
 ---
 
-### Teori — Loggar
+### Theory — Logs
 
-- [ ] Klara "Windows Event Logs" — förstå Windows-loggar → **tryhackme.com/room/windowseventlogs**
-- [ ] Klara "Linux Forensics" — förstå Linux-loggar → **tryhackme.com/room/linuxforensics**
-- [ ] Klara "Splunk: Basics" — lär dig logganalysverktyget → **tryhackme.com/room/splunk101**
-- [ ] Klara "Snort" — intrångsdetektering → **tryhackme.com/room/snort**
+- [ ] Complete "Windows Event Logs" — understand Windows logs → **tryhackme.com/room/windowseventlogs**
+- [ ] Complete "Linux Forensics" — understand Linux logs → **tryhackme.com/room/linuxforensics**
+- [ ] Complete "Splunk: Basics" — learn the log analysis tool → **tryhackme.com/room/splunk101**
+- [ ] Complete "Snort" — intrusion detection → **tryhackme.com/room/snort**
 
 ### Examination
-*Klara dessa på egen hand. Du måste hitta ett riktigt angrepp i loggar.*
+*Complete these on your own. You must find a real attack in log data.*
 
-- [ ] Klara "Investigating with Splunk" — hitta ett angrepp i riktig loggdata → **tryhackme.com/room/investigatingwithsplunk**
-- [ ] Klara "Traffic Analysis Essentials" → **tryhackme.com/room/trafficanalysisessentials**
-- [ ] Klara "Incident Response and Forensics" → **tryhackme.com/room/incidentresponseintro**
+- [ ] Complete "Investigating with Splunk" — find an attack in real log data → **tryhackme.com/room/investigatingwithsplunk**
+- [ ] Complete "Traffic Analysis Essentials" → **tryhackme.com/room/trafficanalysisessentials**
+- [ ] Complete "Incident Response and Forensics" → **tryhackme.com/room/incidentresponseintro**
 - [ ] Forensics → "Operation Oni" → **picoctf.org/practice**
 - [ ] Forensics → "Eavesdrop" → **picoctf.org/practice**
-- [ ] Totalt 40 lösta picoCTF utmaningar → **picoctf.org/practice**
+- [ ] Reach a total of 40 solved picoCTF challenges → **picoctf.org/practice**
 
-**✅ MODUL 5 GODKÄND:** Logganalys + IDS + 40 picoCTF
-
----
-
-## MODUL 6 — Attacktekniker & Penetrationstestning
-
-**Beskrivning:**
-Nu kombinerar du allt du lärt dig och angriper riktiga system. Du lär dig den fullständiga pentesting-metodologin — från spaning till intrång till att bli admin — och automatiserar delar av arbetet med Python.
-
-**Förkunskapskrav:** Modul 2, 3 och 5
-
-**Efter denna modul kan du:**
-- Genomföra ett fullständigt penetrationstest (recon → exploit → root)
-- Eskalera rättigheter från vanlig användare till admin/root
-- Använda Metasploit för att exploatera kända sårbarheter
-- Skriva egna attack-scripts i Python
+**✅ MODULE 5 COMPLETE:** Log analysis + IDS + 40 picoCTF
 
 ---
 
-### Teori
+## MODULE 6 — Attack Techniques & Penetration Testing
 
-- [ ] Klara "Metasploit: Introduction" — lär dig ramverket → **tryhackme.com/room/metasploitintro**
-- [ ] Klara "Privilege Escalation" — lär dig bli admin → **tryhackme.com/room/privescpending**
-- [ ] Klara "Hello World" till "Functions" — Python-grunder → **learnpython.org**
+**Description:**
+Now you combine everything you have learned and attack real systems. You learn the full penetration testing methodology — from reconnaissance to exploitation to becoming admin — and automate parts of the work with Python.
 
-### Praktik
+**Prerequisites:** Module 2, 3 and 5
 
-- [ ] Klara "Blue" — exploatera Windows med Metasploit → **tryhackme.com/room/blue**
-- [ ] Klara "Ice" — fullständig Windows exploitation → **tryhackme.com/room/ice**
+**After this module you will be able to:**
+- Conduct a full penetration test (recon → exploit → root)
+- Escalate privileges from regular user to admin/root
+- Use Metasploit to exploit known vulnerabilities
+- Write your own attack scripts in Python
+
+---
+
+### Theory
+
+- [ ] Complete "Metasploit: Introduction" — learn the framework → **tryhackme.com/room/metasploitintro**
+- [ ] Complete "Privilege Escalation" — learn to become admin → **tryhackme.com/room/privescpending**
+- [ ] Complete "Hello World" through "Functions" — Python basics → **learnpython.org**
+
+### Practice
+
+- [ ] Complete "Blue" — exploit Windows with Metasploit → **tryhackme.com/room/blue**
+- [ ] Complete "Ice" — full Windows exploitation → **tryhackme.com/room/ice**
 
 ### Examination
-*Klara dessa på egen hand utan walkthrough. Skriv writeup för varje.*
+*Complete these without a walkthrough. Write a writeup for each.*
 
-- [ ] Starting Point → "Meow" → **hackthebox.com/starting-point**
-- [ ] Starting Point → "Fawn" → **hackthebox.com/starting-point**
-- [ ] Starting Point → "Dancing" → **hackthebox.com/starting-point**
-- [ ] Starting Point → "Redeemer" → **hackthebox.com/starting-point**
-- [ ] Starting Point → "Explosion" → **hackthebox.com/starting-point**
-- [ ] Machines → klara 5 Easy-maskiner → **hackthebox.com/machines**
-- [ ] Skriv writeup för varje maskin → [ctf-writeups/hackthebox/mall.md](ctf-writeups/hackthebox/mall.md)
-- [ ] Skriv ett eget port-scanning script i Python → [notes/verktyg/cheatsheet.md](notes/verktyg/cheatsheet.md)
+- [ ] Starting Point → "Meow" — Telnet → **hackthebox.com/starting-point**
+- [ ] Starting Point → "Fawn" — FTP → **hackthebox.com/starting-point**
+- [ ] Starting Point → "Dancing" — SMB → **hackthebox.com/starting-point**
+- [ ] Starting Point → "Redeemer" — Redis → **hackthebox.com/starting-point**
+- [ ] Starting Point → "Explosion" — RDP → **hackthebox.com/starting-point**
+- [ ] Machines → complete 5 Easy machines → **hackthebox.com/machines**
+- [ ] Write a writeup for each machine → [ctf-writeups/hackthebox/mall.md](ctf-writeups/hackthebox/mall.md)
+- [ ] Write your own port-scanning script in Python → [notes/verktyg/cheatsheet.md](notes/verktyg/cheatsheet.md)
 
-**✅ MODUL 6 GODKÄND:** 10 HTB-maskiner + writeups + Python-script
-
----
-
-## MODUL 7 — Live CTF & Avancerat
-
-**Beskrivning:**
-Sista modulen. Du tävlar nu mot riktiga människor under tidspress och visar att du kan lösa okända problem på egen hand. Du bygger också ett komplett portfolio som dokumenterar hela din resa.
-
-**Förkunskapskrav:** Modul 1–6
-
-**Efter denna modul kan du:**
-- Lösa okända CTF-utmaningar under tidspress
-- Förklara och dokumentera dina lösningar i writeups
-- Genomföra Red Team-operationer
-- Visa upp ett portfolio över din tekniska kompetens
+**✅ MODULE 6 COMPLETE:** 10 HTB machines + writeups + Python script
 
 ---
 
-### Teori — Avancerat
+## MODULE 7 — Live CTF & Advanced
 
-- [ ] Klara hela "Junior Penetration Tester"-pathen → **tryhackme.com/path/outline/jrpenetrationtester**
-- [ ] Klara "Red Team Fundamentals" → **tryhackme.com/room/redteamfundamentals**
-- [ ] Klara "Red Team Recon" → **tryhackme.com/room/redteamrecon**
+**Description:**
+Final module. You now compete against real people under time pressure and prove you can solve unknown problems on your own. You also build a complete portfolio documenting your entire journey.
 
-### Examination — Live tävling
+**Prerequisites:** Modules 1–6
 
-- [ ] Delta i picoCTF live-tävlingen (mars varje år) → **picoctf.org**
-- [ ] Lös minst 10 utmaningar i live-tävlingen
-- [ ] Delta i en extern CTF → **ctftime.org**
-- [ ] Lös minst 5 utmaningar i extern CTF
-- [ ] Nå rank "Hacker" på HackTheBox → **hackthebox.com**
-- [ ] Ha minst 10 writeups uppladdade i repot → [ctf-writeups/](ctf-writeups/)
-
-**✅ MODUL 7 GODKÄND:** Tekniskt redo för cyberoperationer
+**After this module you will be able to:**
+- Solve unknown CTF challenges under time pressure
+- Explain and document your solutions in writeups
+- Conduct Red Team operations
+- Present a portfolio demonstrating your technical competence
 
 ---
 
-## Totalt framsteg
-- picoCTF utmaningar: 0 / 40+
-- PortSwigger labbar: 0 / 10
-- TryHackMe rum: 0 / 20+
-- HackTheBox maskiner: 0 / 10+
+### Theory — Advanced
+
+- [ ] Complete the full "Junior Penetration Tester" path → **tryhackme.com/path/outline/jrpenetrationtester**
+- [ ] Complete "Red Team Fundamentals" → **tryhackme.com/room/redteamfundamentals**
+- [ ] Complete "Red Team Recon" → **tryhackme.com/room/redteamrecon**
+
+### Examination — Live Competition
+
+- [ ] Compete in the picoCTF live event (held every March) → **picoctf.org**
+- [ ] Solve at least 10 challenges in the live event
+- [ ] Find and enter an external CTF → **ctftime.org**
+- [ ] Solve at least 5 challenges in the external CTF
+- [ ] Reach rank "Hacker" on HackTheBox → **hackthebox.com**
+- [ ] Have at least 10 writeups published in this repo → [ctf-writeups/](ctf-writeups/)
+
+**✅ MODULE 7 COMPLETE:** Ready for cyber operations
+
+---
+
+## Total Progress
+- picoCTF challenges: 0 / 40+
+- PortSwigger labs: 0 / 10
+- TryHackMe rooms: 0 / 20+
+- HackTheBox machines: 0 / 10+
 - Writeups: 0 / 10+
