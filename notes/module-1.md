@@ -49,8 +49,8 @@ Används ofta i CTF för att dölja text som en lista med siffror.
 | } | 125 |
 
 ### Verktyg
-- CyberChef (online) — dekryptera nästan vad som helst
-- Hashcat — cracka hash-lösenord
+- [CyberChef](https://gchq.github.io/CyberChef/) — dekryptera nästan vad som helst
+- [Hashcat](https://hashcat.net/hashcat/) — cracka hash-lösenord
 
 ---
 
