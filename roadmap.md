@@ -1,154 +1,127 @@
 # Roadmap — Cybersoldat
-1 timme per dag hemifrån. Uppdatera [ ] till [x] när du är klar.
+1 timme per dag. Uppdatera [ ] till [x] när du är klar.
 
 ---
 
 ## FAS 1 — Grunder (Månad 1-2)
-**Mål: Förstå vad cybersäkerhet är och kom igång med picoCTF**
 
-### Vecka 1-2 — Kom igång
-- [ ] Skapa konto på picoctf.org
-- [ ] Skapa konto på tryhackme.com
-- [ ] Förstå vad CIA-triaden är (Konfidentialitet, Integritet, Tillgänglighet)
-- [ ] Förstå skillnaden mellan etisk och oetisk hacking
-- [ ] Lär dig vad en IP-adress är och hur DNS fungerar
+### Vecka 1 — Skapa konton
+- [ ] Gå till **picoctf.org** → klicka "Register" → skapa konto
+- [ ] Gå till **tryhackme.com** → klicka "Join Free" → skapa konto
+- [ ] Gå till **cryptohack.org** → klicka "Register" → skapa konto
 
-### Vecka 3-4 — Första CTF-utmaningar
-- [ ] Lös 3 st picoCTF "General Skills" (lätt)
-- [ ] Lös 3 st picoCTF "Cryptography" (lätt)
-- [ ] Lös 2 st picoCTF "Forensics" (lätt)
+### Vecka 2 — Första picoCTF-utmaningar
+- [ ] Gå till **picoctf.org** → "Practice" → filtrera på "General Skills" → lös "Obedient Cat"
+- [ ] Gå till **picoctf.org** → "Practice" → "General Skills" → lös "Python Wrangling"
+- [ ] Gå till **picoctf.org** → "Practice" → "General Skills" → lös "Wave a flag"
 
-### Vecka 5-6 — Kryptografi
-- [ ] Förstå vad Caesar cipher är
-- [ ] Förstå vad Base64 är
-- [ ] Förstå vad hashing är (MD5, SHA)
-- [ ] Lös 5 st picoCTF krypto-utmaningar
+### Vecka 3-4 — Kryptografi
+- [ ] Gå till **cryptohack.org** → "Introduction" → klara hela Introduction-sektionen (7 utmaningar)
+- [ ] Gå till **picoctf.org** → "Cryptography" → lös "Caesar" (easy)
+- [ ] Gå till **picoctf.org** → "Cryptography" → lös "13" (ROT13)
+- [ ] Gå till **picoctf.org** → "Cryptography" → lös "Easy1"
 
-### Vecka 7-8 — Delmål 1
-- [ ] Totalt 20 lösta picoCTF utmaningar
-- [ ] Skriv din första writeup i ctf-writeups/picoctf/
+### Vecka 5-8 — Fler picoCTF
+- [ ] Gå till **picoctf.org** → "Forensics" → lös "information"
+- [ ] Gå till **picoctf.org** → "Forensics" → lös "Matryoshka doll"
+- [ ] Gå till **picoctf.org** → "Web Exploitation" → lös "Inspect HTML"
+- [ ] Gå till **picoctf.org** → "Web Exploitation" → lös "Don't use client-side"
+- [ ] Totalt 15 lösta picoCTF utmaningar
 
-**DELMÅL 1 KLART:** 20 picoCTF utmaningar + 1 writeup ✅
+**✅ DELMÅL 1:** 15 picoCTF-utmaningar lösta + konto på alla 3 plattformar
 
 ---
 
 ## FAS 2 — Linux & Nätverk (Månad 3-4)
-**Mål: Kunna navigera Linux och förstå nätverk**
 
-### Vecka 9-10 — Linux grunder
-- [ ] Installera Kali Linux (WSL eller VirtualBox)
-- [ ] Lär dig: ls, cd, pwd, mkdir, rm, cp, mv
-- [ ] Lär dig: cat, grep, find, chmod, sudo
-- [ ] Lär dig: nano/vim (redigera filer i terminalen)
-- [ ] Lär dig: pip, apt-get (installera program)
+### Vecka 9-10 — Installera Kali Linux
+- [ ] Gå till **tryhackme.com** → sök "Linux Fundamentals Part 1" → starta rummet → klara det
+- [ ] Gå till **tryhackme.com** → sök "Linux Fundamentals Part 2" → klara det
+- [ ] Gå till **tryhackme.com** → sök "Linux Fundamentals Part 3" → klara det
 
 ### Vecka 11-12 — Nätverk
-- [ ] Förstå OSI-modellen (7 lager)
-- [ ] Förstå TCP vs UDP
-- [ ] Förstå vad HTTP/HTTPS är
-- [ ] Förstå vad en port är (80, 443, 22, 21)
-- [ ] Installera och testa Wireshark
+- [ ] Gå till **tryhackme.com** → sök "What is Networking?" → klara rummet
+- [ ] Gå till **tryhackme.com** → sök "Intro to LAN" → klara rummet
+- [ ] Gå till **tryhackme.com** → sök "OSI Model" → klara rummet
+- [ ] Gå till **tryhackme.com** → sök "Packets & Frames" → klara rummet
 
 ### Vecka 13-14 — Verktyg
-- [ ] Kör nmap för första gången (skanna din egna dator)
-- [ ] Förstå vad port scanning är
-- [ ] Lös 5 st picoCTF "Forensics" med nätverksfokus
-- [ ] Lös 5 st picoCTF "General Skills" med Linux-fokus
+- [ ] Gå till **tryhackme.com** → sök "Nmap" → klara rummet
+- [ ] Gå till **tryhackme.com** → sök "Wireshark: The Basics" → klara rummet
+- [ ] Gå till **picoctf.org** → "General Skills" → lös "Lets Warm Up"
+- [ ] Gå till **picoctf.org** → "Forensics" → lös "Wireshark doo dooo do doo"
 
-### Vecka 15-16 — Delmål 2
-- [ ] Kan navigera Kali Linux utan att googla varje kommando
-- [ ] Har använt nmap och Wireshark minst en gång
-- [ ] Totalt 35 lösta picoCTF utmaningar
+### Vecka 15-16
+- [ ] Totalt 25 lösta picoCTF utmaningar
+- [ ] Skriv din första writeup → kopiera [ctf-writeups/picoctf/mall.md](ctf-writeups/picoctf/mall.md) → fyll i
 
-**DELMÅL 2 KLART:** Linux-kompetens + 35 picoCTF ✅
+**✅ DELMÅL 2:** 6 TryHackMe-rum + 25 picoCTF + 1 writeup
 
 ---
 
 ## FAS 3 — Webbattacker (Månad 5-6)
-**Mål: Förstå och kunna utföra de vanligaste webbattackerna**
 
 ### Vecka 17-18 — SQL Injection
-- [ ] Förstå vad en databas är
-- [ ] Förstå vad SQL är (SELECT, WHERE, etc.)
-- [ ] Klara PortSwigger: SQL Injection lab 1
-- [ ] Klara PortSwigger: SQL Injection lab 2
-- [ ] Klara PortSwigger: SQL Injection lab 3
-- [ ] Lös picoCTF SQL-utmaningar
+- [ ] Gå till **portswigger.net/web-security/sql-injection** → läs teorin
+- [ ] Gå till **portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data** → klara lab 1
+- [ ] Gå till **portswigger.net/web-security/sql-injection/lab-login-bypass** → klara lab 2
+- [ ] Gå till **picoctf.org** → "Web Exploitation" → lös "SQL Direct"
 
-### Vecka 19-20 — XSS (Cross-Site Scripting)
-- [ ] Förstå vad XSS är
-- [ ] Klara PortSwigger: XSS lab 1
-- [ ] Klara PortSwigger: XSS lab 2
-- [ ] Klara PortSwigger: XSS lab 3
+### Vecka 19-20 — XSS
+- [ ] Gå till **portswigger.net/web-security/cross-site-scripting** → läs teorin
+- [ ] Gå till **portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded** → klara lab 1
+- [ ] Gå till **portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded** → klara lab 2
+- [ ] Gå till **picoctf.org** → "Web Exploitation" → lös "XSS challenge"
 
-### Vecka 21-22 — Autentiseringsattacker
-- [ ] Förstå vad brute force är
-- [ ] Förstå vad CSRF är
-- [ ] Klara PortSwigger: Authentication lab 1
-- [ ] Klara PortSwigger: Authentication lab 2
-- [ ] Lös 5 st picoCTF "Web Exploitation"
+### Vecka 21-24
+- [ ] Gå till **portswigger.net/web-security/authentication** → klara 2 authentication-labbar
+- [ ] Totalt 10 PortSwigger-labbar klarade
+- [ ] Totalt 35 picoCTF-utmaningar lösta
+- [ ] Skriv 1 writeup om en webbattack du löst
 
-### Vecka 23-24 — Delmål 3
-- [ ] Klara totalt 10 PortSwigger-labbar
-- [ ] Totalt 50 lösta picoCTF utmaningar
-- [ ] Skriv en writeup om en webbattack
-
-**DELMÅL 3 KLART:** Webbattacker + 50 picoCTF ✅
+**✅ DELMÅL 3:** 10 PortSwigger-labbar + 35 picoCTF + writeup om webb
 
 ---
 
 ## FAS 4 — HackTheBox (Månad 7-9)
-**Mål: Hacka riktiga maskiner**
 
 ### Vecka 25-28 — Starting Point
-- [ ] Skapa konto på hackthebox.com
-- [ ] Klara Starting Point maskin 1: Meow
-- [ ] Klara Starting Point maskin 2: Fawn
-- [ ] Klara Starting Point maskin 3: Dancing
-- [ ] Klara Starting Point maskin 4: Redeemer
-- [ ] Klara Starting Point maskin 5: Explosion
-- [ ] Skriv writeup för varje maskin
+- [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Meow"
+- [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Fawn"
+- [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Dancing"
+- [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Redeemer"
+- [ ] Gå till **hackthebox.com** → "Starting Point" → klara "Explosion"
+- [ ] Skriv writeup för varje maskin → använd [ctf-writeups/hackthebox/mall.md](ctf-writeups/hackthebox/mall.md)
 
-### Vecka 29-32 — Easy-maskiner
-- [ ] Klara HTB Easy maskin 1
-- [ ] Klara HTB Easy maskin 2
-- [ ] Klara HTB Easy maskin 3
-- [ ] Förstå vad Privilege Escalation är
-- [ ] Förstå vad Reverse Shell är
+### Vecka 29-36 — Easy-maskiner + Python
+- [ ] Gå till **hackthebox.com** → "Machines" → filtrera "Easy" → klara 3 maskiner
+- [ ] Gå till **learnpython.org** → klara "Hello World" till "Functions" (gratis, online)
+- [ ] Skriv ett eget Python-script som scannar portar (se [notes/verktyg/cheatsheet.md](notes/verktyg/cheatsheet.md))
 
-### Vecka 33-36 — Python scripting
-- [ ] Skriv ett Python-script som automatiserar port scanning
-- [ ] Skriv ett Python-script för lösenordsbrute force
-- [ ] Lös en picoCTF med ett eget Python-script
-
-**DELMÅL 4 KLART:** 8 HTB maskiner + Python scripting ✅
+**✅ DELMÅL 4:** 8 HTB-maskiner + 8 writeups + eget Python-script
 
 ---
 
 ## FAS 5 — Portfolio & CTF-tävlingar (Månad 10-12)
-**Mål: Bygga ett portfolio och delta i riktiga tävlingar**
 
-### Vecka 37-40 — Delta i live CTF
-- [ ] Delta i picoCTF (sker varje år i mars)
-- [ ] Lös minst 10 utmaningar i live CTF
-- [ ] Delta i en annan CTF (CTFtime.org för att hitta tävlingar)
-
-### Vecka 41-44 — Portfolio
-- [ ] Ha minst 5 writeups i ctf-writeups/
-- [ ] Ha anteckningar i alla notes/-mappar
-- [ ] Sammanfatta vad du lärt dig i varje fas
+### Vecka 37-44 — Live CTF
+- [ ] Gå till **ctftime.org** → hitta en kommande CTF → registrera dig
+- [ ] Delta och lös minst 5 utmaningar
+- [ ] Gå till **picoctf.org** → delta i årets tävling (mars varje år)
+- [ ] Skriv writeups för alla utmaningar du löste
 
 ### Vecka 45-48 — Förberedelse Försvarsmakten
-- [ ] Läs på om mönstringsprocessen
-- [ ] Kontakta Charlotta Ridderståle (charlotta.ridderstrale@mil.se)
-- [ ] Håll fysiken igång parallellt
+- [ ] Ha minst 5 writeups uppladdade i detta repo
+- [ ] Maila **charlotta.ridderstrale@mil.se** och fråga om cybersoldatutbildningen
+- [ ] Läs på om mönstringsprocessen på forsvarsmakten.se
 
-**DELMÅL 5 KLART:** Redo för mönstring ✅
+**✅ DELMÅL 5:** Redo för mönstring
 
 ---
 
 ## Totalt framsteg
-- picoCTF lösta: 0 / 50+
-- PortSwigger labbar: 0 / 10+
-- HackTheBox maskiner: 0 / 8+
-- Writeups skrivna: 0 / 5+
+- picoCTF utmaningar: 0 / 35+
+- PortSwigger labbar: 0 / 10
+- TryHackMe rum: 0 / 6+
+- HackTheBox maskiner: 0 / 8
+- Writeups: 0 / 5+
