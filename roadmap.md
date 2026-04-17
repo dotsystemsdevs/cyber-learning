@@ -10,34 +10,22 @@ Uppdatera [ ] till [x] när du är klar.
 - Knäcka enkla chiffer (Caesar, Base64, ROT13, hex)
 - Lösa dina första CTF-utmaningar helt på egen hand
 
-**Genomfört:**
 - [ ] FAS 1 klar
 
 ---
 
-### TryHackMe
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "Intro to Offensive Security" — vad etisk hacking är, CIA-triaden
-- [ ] Klara "Security Awareness" — hur angripare tänker
-
-### CryptoHack
-Lär dig här: **cryptohack.org → Introduction**
-
-- [ ] Klara alla 7 utmaningar i Introduction-sektionen
-
-### picoCTF
-Lär dig här: **picoctf.org → Practice**
-
-- [ ] General Skills → "Obedient Cat"
-- [ ] General Skills → "Python Wrangling"
-- [ ] General Skills → "Wave a flag"
-- [ ] Cryptography → "Caesar"
-- [ ] Cryptography → "13" (ROT13)
-- [ ] Cryptography → "Easy1"
-- [ ] Forensics → "information"
-- [ ] Web Exploitation → "Inspect HTML"
-- [ ] Web Exploitation → "Don't use client-side"
+- [ ] Klara "Intro to Offensive Security" — vad etisk hacking är, CIA-triaden → **tryhackme.com/room/introtooffensivesecurity**
+- [ ] Klara "Security Awareness" — hur angripare tänker → **tryhackme.com/room/securityawarenessintro**
+- [ ] Klara alla 7 utmaningar i Introduction-sektionen → **cryptohack.org/courses/intro**
+- [ ] General Skills → lös "Obedient Cat" → **picoctf.org/practice**
+- [ ] General Skills → lös "Python Wrangling" → **picoctf.org/practice**
+- [ ] General Skills → lös "Wave a flag" → **picoctf.org/practice**
+- [ ] Cryptography → lös "Caesar" → **picoctf.org/practice**
+- [ ] Cryptography → lös "13" (ROT13) → **picoctf.org/practice**
+- [ ] Cryptography → lös "Easy1" → **picoctf.org/practice**
+- [ ] Forensics → lös "information" → **picoctf.org/practice**
+- [ ] Web Exploitation → lös "Inspect HTML" → **picoctf.org/practice**
+- [ ] Web Exploitation → lös "Don't use client-side" → **picoctf.org/practice**
 
 **✅ DELMÅL 1:** Grundförståelse för cybersäkerhet + 9 picoCTF lösta
 
@@ -50,41 +38,25 @@ Lär dig här: **picoctf.org → Practice**
 - Förstå hur IP, DNS, TCP/UDP, HTTP och OSI-modellen fungerar
 - Skanna ett nätverk med nmap och analysera trafik i Wireshark
 
-**Genomfört:**
 - [ ] FAS 2 klar
 
 ---
 
-### TryHackMe — Linux
-Lär dig här: **tryhackme.com**
+- [ ] Klara "Linux Fundamentals Part 1" → **tryhackme.com/room/linuxfundamentalspart1**
+- [ ] Klara "Linux Fundamentals Part 2" → **tryhackme.com/room/linuxfundamentalspart2**
+- [ ] Klara "Linux Fundamentals Part 3" → **tryhackme.com/room/linuxfundamentalspart3**
+- [ ] Klara "What is Networking?" — IP-adresser, MAC → **tryhackme.com/room/whatisnetworking**
+- [ ] Klara "DNS in Detail" — hur DNS fungerar → **tryhackme.com/room/dnsindetail**
+- [ ] Klara "HTTP in Detail" — hur webb fungerar → **tryhackme.com/room/httpindetail**
+- [ ] Klara "OSI Model" — de 7 lagren → **tryhackme.com/room/osimodelzi**
+- [ ] Klara "Packets & Frames" — TCP vs UDP → **tryhackme.com/room/packetsframes**
+- [ ] Klara "Nmap" — port scanning → **tryhackme.com/room/furthernmap**
+- [ ] Klara "Wireshark: The Basics" — nätverksanalys → **tryhackme.com/room/wiresharkthebasics**
+- [ ] Forensics → lös "Wireshark doo dooo do doo" → **picoctf.org/practice**
+- [ ] Forensics → lös "Packet Primo" → **picoctf.org/practice**
+- [ ] Totalt 20 lösta picoCTF utmaningar → **picoctf.org/practice**
 
-- [ ] Klara "Linux Fundamentals Part 1"
-- [ ] Klara "Linux Fundamentals Part 2"
-- [ ] Klara "Linux Fundamentals Part 3"
-
-### TryHackMe — Nätverk
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "What is Networking?" — IP-adresser, MAC
-- [ ] Klara "DNS in Detail" — hur DNS fungerar
-- [ ] Klara "HTTP in Detail" — hur webb fungerar
-- [ ] Klara "OSI Model" — de 7 lagren
-- [ ] Klara "Packets & Frames" — TCP vs UDP
-
-### TryHackMe — Verktyg
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "Nmap" — port scanning
-- [ ] Klara "Wireshark: The Basics" — nätverksanalys
-
-### picoCTF
-Lär dig här: **picoctf.org → Practice**
-
-- [ ] Forensics → "Wireshark doo dooo do doo"
-- [ ] Forensics → "Packet Primo"
-- [ ] Totalt 20 lösta utmaningar
-
-**✅ DELMÅL 2:** Linux-kompetens + nätverk + verktyg + 20 picoCTF
+**✅ DELMÅL 2:** Linux + nätverk + verktyg + 20 picoCTF
 
 ---
 
@@ -95,46 +67,24 @@ Lär dig här: **picoctf.org → Practice**
 - Injicera XSS-kod i en webbsida
 - Förstå och förklara OWASP Top 10
 
-**Genomfört:**
 - [ ] FAS 3 klar
 
 ---
 
-### PortSwigger — SQL Injection
-Lär dig här: **portswigger.net/web-security/sql-injection**
-
-- [ ] Läs teorin
-- [ ] Klara lab "retrieve-hidden-data"
-- [ ] Klara lab "login-bypass"
-
-### PortSwigger — XSS
-Lär dig här: **portswigger.net/web-security/cross-site-scripting**
-
-- [ ] Läs teorin
-- [ ] Klara lab "reflected/lab-html-context-nothing-encoded"
-- [ ] Klara lab "stored/lab-html-context-nothing-encoded"
-
-### PortSwigger — Autentisering
-Lär dig här: **portswigger.net/web-security/authentication**
-
-- [ ] Läs teorin
-- [ ] Klara 2 labbar
-
-### PortSwigger — CSRF
-Lär dig här: **portswigger.net/web-security/csrf**
-
-- [ ] Läs teorin
-- [ ] Klara 1 labb
-
-### picoCTF
-Lär dig här: **picoctf.org → Practice → Web Exploitation**
-
-- [ ] Lös "SQL Direct"
-- [ ] Lös "Cookies"
-- [ ] Lös "More Cookies"
-- [ ] Totalt 30 lösta utmaningar
-
-### Writeup
+- [ ] Läs teorin om SQL Injection → **portswigger.net/web-security/sql-injection**
+- [ ] Klara lab "retrieve-hidden-data" → **portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data**
+- [ ] Klara lab "login-bypass" → **portswigger.net/web-security/sql-injection/lab-login-bypass**
+- [ ] Läs teorin om XSS → **portswigger.net/web-security/cross-site-scripting**
+- [ ] Klara lab "reflected XSS" → **portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded**
+- [ ] Klara lab "stored XSS" → **portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded**
+- [ ] Läs teorin om autentiseringsattacker → **portswigger.net/web-security/authentication**
+- [ ] Klara 2 authentication-labbar → **portswigger.net/web-security/authentication/password-based**
+- [ ] Läs teorin om CSRF → **portswigger.net/web-security/csrf**
+- [ ] Klara 1 CSRF-labb → **portswigger.net/web-security/csrf**
+- [ ] Web Exploitation → lös "SQL Direct" → **picoctf.org/practice**
+- [ ] Web Exploitation → lös "Cookies" → **picoctf.org/practice**
+- [ ] Web Exploitation → lös "More Cookies" → **picoctf.org/practice**
+- [ ] Totalt 30 lösta picoCTF utmaningar → **picoctf.org/practice**
 - [ ] Skriv 1 writeup om en webbattack → [ctf-writeups/picoctf/mall.md](ctf-writeups/picoctf/mall.md)
 
 **✅ DELMÅL 3:** 10 PortSwigger-labbar + 30 picoCTF + writeup
@@ -148,30 +98,17 @@ Lär dig här: **picoctf.org → Practice → Web Exploitation**
 - Hitta subdomäner, exponerade filer och läckta uppgifter
 - Förstå hur angripare använder öppen information som vapen
 
-**Genomfört:**
 - [ ] FAS 4 klar
 
 ---
 
-### TryHackMe — OSINT
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "OSINT" rummet
-- [ ] Klara "Google Dorking" — avancerade Google-sökningar
-- [ ] Klara "Searchlight - IMINT" — bildanalys och geolokalisering
-
-### Verktyg att lära sig
-Lär dig här: **tryhackme.com → sök på respektive verktyg**
-
-- [ ] Klara "Shodan" — hitta exponerade enheter på internet
-- [ ] Klara "Intro to OSINT" — metadata, sociala medier, domäninfo
-
-### picoCTF
-Lär dig här: **picoctf.org → Practice → Forensics**
-
-- [ ] Lös "Trivial Flag Transfer Protocol"
-- [ ] Lös "Enhance!"
-- [ ] Lös "Sleuthkit Intro"
+- [ ] Klara "OSINT" → **tryhackme.com/room/ohsint**
+- [ ] Klara "Google Dorking" — avancerade sökningar → **tryhackme.com/room/googledorking**
+- [ ] Klara "Searchlight - IMINT" — bildanalys, geolokalisering → **tryhackme.com/room/searchlightosint**
+- [ ] Klara "Shodan" — hitta exponerade enheter → **tryhackme.com/room/shodan**
+- [ ] Forensics → lös "Trivial Flag Transfer Protocol" → **picoctf.org/practice**
+- [ ] Forensics → lös "Enhance!" → **picoctf.org/practice**
+- [ ] Forensics → lös "Sleuthkit Intro" → **picoctf.org/practice**
 
 **✅ DELMÅL 4:** OSINT-verktyg + passiv spaning + 3 picoCTF forensics
 
@@ -184,32 +121,20 @@ Lär dig här: **picoctf.org → Practice → Forensics**
 - Identifiera ett pågående intrång i loggar
 - Följa ett angrepp från start till slut i loggdata
 
-**Genomfört:**
 - [ ] FAS 5 klar
 
 ---
 
-### TryHackMe — Loggar & SOC
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "Incident Response and Forensics"
-- [ ] Klara "Windows Event Logs" — läsa Windows-loggar
-- [ ] Klara "Linux Forensics" — läsa Linux-loggar
-- [ ] Klara "Splunk: Basics" — logganalysverktyg
-- [ ] Klara "Investigating with Splunk" — hitta angrepp i loggar
-
-### TryHackMe — Nätverksdetektering
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "Snort" — intrångsdetektering (IDS)
-- [ ] Klara "Traffic Analysis Essentials"
-
-### picoCTF
-Lär dig här: **picoctf.org → Practice → Forensics**
-
-- [ ] Lös "Operation Oni"
-- [ ] Lös "Eavesdrop"
-- [ ] Totalt 40 lösta utmaningar
+- [ ] Klara "Incident Response and Forensics" → **tryhackme.com/room/incidentresponseintro**
+- [ ] Klara "Windows Event Logs" — läsa Windows-loggar → **tryhackme.com/room/windowseventlogs**
+- [ ] Klara "Linux Forensics" — läsa Linux-loggar → **tryhackme.com/room/linuxforensics**
+- [ ] Klara "Splunk: Basics" — logganalysverktyg → **tryhackme.com/room/splunk101**
+- [ ] Klara "Investigating with Splunk" — hitta angrepp i loggar → **tryhackme.com/room/investigatingwithsplunk**
+- [ ] Klara "Snort" — intrångsdetektering → **tryhackme.com/room/snort**
+- [ ] Klara "Traffic Analysis Essentials" → **tryhackme.com/room/trafficanalysisessentials**
+- [ ] Forensics → lös "Operation Oni" → **picoctf.org/practice**
+- [ ] Forensics → lös "Eavesdrop" → **picoctf.org/practice**
+- [ ] Totalt 40 lösta picoCTF utmaningar → **picoctf.org/practice**
 
 **✅ DELMÅL 5:** Logganalys + IDS + 40 picoCTF
 
@@ -220,44 +145,27 @@ Lär dig här: **picoctf.org → Practice → Forensics**
 **Mål:**
 - Ta dig in i en riktig maskin från scratch (recon → exploit → root)
 - Eskalera rättigheter från användare till admin/root
-- Förstå och använda verktyg som Metasploit och Burp Suite
+- Förstå och använda Metasploit och Burp Suite
 
-**Genomfört:**
 - [ ] FAS 6 klar
 
 ---
 
-### TryHackMe — Pentesting
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara "Metasploit: Introduction"
-- [ ] Klara "Blue" — exploatera en riktig Windows-maskin
-- [ ] Klara "Ice" — Windows exploitation
-- [ ] Klara "Privilege Escalation" rummet
-
-### HackTheBox — Starting Point
-Lär dig här: **hackthebox.com → Starting Point**
-
-- [ ] Klara "Meow" — grundläggande Telnet
-- [ ] Klara "Fawn" — FTP-attack
-- [ ] Klara "Dancing" — SMB-attack
-- [ ] Klara "Redeemer" — Redis-attack
-- [ ] Klara "Explosion" — RDP-attack
-
-### HackTheBox — Easy maskiner
-Lär dig här: **hackthebox.com → Machines → Easy**
-
-- [ ] Klara 5 Easy-maskiner
+- [ ] Klara "Metasploit: Introduction" → **tryhackme.com/room/metasploitintro**
+- [ ] Klara "Blue" — exploatera Windows → **tryhackme.com/room/blue**
+- [ ] Klara "Ice" — Windows exploitation → **tryhackme.com/room/ice**
+- [ ] Klara "Privilege Escalation" → **tryhackme.com/room/privescpending**
+- [ ] Starting Point → klara "Meow" — Telnet → **hackthebox.com/starting-point**
+- [ ] Starting Point → klara "Fawn" — FTP → **hackthebox.com/starting-point**
+- [ ] Starting Point → klara "Dancing" — SMB → **hackthebox.com/starting-point**
+- [ ] Starting Point → klara "Redeemer" — Redis → **hackthebox.com/starting-point**
+- [ ] Starting Point → klara "Explosion" — RDP → **hackthebox.com/starting-point**
+- [ ] Machines → klara 5 Easy-maskiner → **hackthebox.com/machines**
 - [ ] Skriv writeup för varje maskin → [ctf-writeups/hackthebox/mall.md](ctf-writeups/hackthebox/mall.md)
+- [ ] Klara "Hello World" till "Functions" → **learnpython.org**
+- [ ] Skriv ett eget port-scanning script → [notes/verktyg/cheatsheet.md](notes/verktyg/cheatsheet.md)
 
-### Python — Automatisera attacker
-Lär dig här: **learnpython.org**
-
-- [ ] Klara "Hello World" till "Functions"
-- [ ] Skriv ett port-scanning script → se [notes/verktyg/cheatsheet.md](notes/verktyg/cheatsheet.md)
-- [ ] Skriv ett script som automatiserar en attack du lärt dig
-
-**✅ DELMÅL 6:** 10 HTB-maskiner + writeups + eget attack-script
+**✅ DELMÅL 6:** 10 HTB-maskiner + writeups + Python-script
 
 ---
 
@@ -268,36 +176,19 @@ Lär dig här: **learnpython.org**
 - Ha ett komplett portfolio med writeups
 - Vara tekniskt redo för cyberoperationer
 
-**Genomfört:**
 - [ ] FAS 7 klar
 
 ---
 
-### picoCTF — Live tävling
-Lär dig här: **picoctf.org** (tävling varje år i mars)
-
-- [ ] Delta i live-tävlingen
-- [ ] Lös minst 10 utmaningar
-- [ ] Skriv writeup för varje lösning
-
-### CTFtime — Andra tävlingar
-Lär dig här: **ctftime.org**
-
-- [ ] Hitta en kommande CTF → delta
-- [ ] Lös minst 5 utmaningar
-- [ ] Skriv writeups
-
-### TryHackMe — Avancerat
-Lär dig här: **tryhackme.com**
-
-- [ ] Klara hela "Junior Penetration Tester"-pathen
-- [ ] Klara "Red Team Fundamentals"
-- [ ] Klara "Red Team Recon"
-
-### HackTheBox — Rank upp
-Lär dig här: **hackthebox.com**
-
-- [ ] Nå rank "Hacker" (~20 lösta maskiner totalt)
+- [ ] Delta i live-tävlingen (mars varje år) → **picoctf.org**
+- [ ] Lös minst 10 utmaningar i live-tävlingen → **picoctf.org**
+- [ ] Hitta en kommande CTF → registrera och delta → **ctftime.org**
+- [ ] Lös minst 5 utmaningar i extern CTF → **ctftime.org**
+- [ ] Klara hela "Junior Penetration Tester"-pathen → **tryhackme.com/path/outline/jrpenetrationtester**
+- [ ] Klara "Red Team Fundamentals" → **tryhackme.com/room/redteamfundamentals**
+- [ ] Klara "Red Team Recon" → **tryhackme.com/room/redteamrecon**
+- [ ] Nå rank "Hacker" (~20 lösta maskiner totalt) → **hackthebox.com**
+- [ ] Ha minst 10 writeups uppladdade i detta repo → [ctf-writeups/](ctf-writeups/)
 
 **✅ DELMÅL 7:** Tekniskt redo för cyberoperationer
 
