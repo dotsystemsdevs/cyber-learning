@@ -1,8 +1,8 @@
 # Cyber Learning
 
-> A structured self-study curriculum from zero to cyber operations — built around ethical hacking, CTF competitions, log analysis, OSINT, and penetration testing.
+> A structured self-study curriculum from zero to advanced — built around ethical hacking, CTF competitions, log analysis, OSINT, and penetration testing.
 
-This repository documents my personal journey toward becoming proficient in offensive and defensive cybersecurity. Every module has clear learning objectives, guided theory, hands-on practice, and an examination section to prove the knowledge before moving on.
+This repository documents my personal journey through cybersecurity. Every module has clear learning objectives, guided theory, hands-on practice, and an examination section to prove the knowledge before moving on.
 
 ---
 

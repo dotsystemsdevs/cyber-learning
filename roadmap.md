@@ -1,4 +1,4 @@
-# Curriculum — Cyber Operations
+# Curriculum — Cybersecurity
 **Level:** Beginner → Advanced
 **Format:** 1 hour per day, fully self-study from home
 **Examination:** Each module ends with a practical exam you must complete before moving on
@@ -288,7 +288,7 @@ Final module. You now compete against real people under time pressure and prove 
 - [ ] Reach rank "Hacker" on HackTheBox → **hackthebox.com**
 - [ ] Have at least 10 writeups published in this repo → [ctf-writeups/](ctf-writeups/)
 
-**✅ MODULE 7 COMPLETE:** Ready for cyber operations
+**✅ MODULE 7 COMPLETE:** Advanced level reached
 
 ---
 
