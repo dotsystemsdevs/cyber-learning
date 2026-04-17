@@ -22,7 +22,7 @@ Before you can attack or defend systems you need to understand the fundamentals 
 
 ### Theory
 
-- [ ] Complete "Intro to Offensive Security" — CIA triad, ethical hacking → **tryhackme.com/room/introtooffensivesecurity**
+- [x] Complete "Intro to Offensive Security" — CIA triad, ethical hacking → **tryhackme.com/room/introtooffensivesecurity**
 - [ ] Complete "Security Awareness" — how attackers think → **tryhackme.com/room/securityawarenessintro**
 - [ ] Complete the Introduction section — Caesar, ROT13, Base64, hex explained one by one → **cryptohack.org/courses/intro**
 
