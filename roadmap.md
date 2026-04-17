@@ -110,12 +110,13 @@
 - [ ] Gå till **picoctf.org** → delta i årets tävling (mars varje år)
 - [ ] Skriv writeups för alla utmaningar du löste
 
-### Vecka 45-48 — Förberedelse Försvarsmakten
+### Vecka 45-48 — Tekniskt portfolio
 - [ ] Ha minst 5 writeups uppladdade i detta repo
-- [ ] Maila **charlotta.ridderstrale@mil.se** och fråga om cybersoldatutbildningen
-- [ ] Läs på om mönstringsprocessen på forsvarsmakten.se
+- [ ] Gå till **tryhackme.com/path/outline/jrpenetrationtester** → klara hela Junior Penetration Tester-pathen
+- [ ] Gå till **tryhackme.com/room/redteamfundamentals** → klara rummet
+- [ ] Gå till **hackthebox.com** → nå rank "Hacker" (kräver ~20 lösta maskiner)
 
-**✅ DELMÅL 5:** Redo för mönstring
+**✅ DELMÅL 5:** Tekniskt redo för cyberoperationer
 
 ---
 
