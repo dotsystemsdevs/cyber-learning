@@ -96,6 +96,31 @@ git pull                    # hämta senaste från GitHub
 
 ---
 
+## ASCII
+
+ASCII är en standard som kopplar siffror till tecken.
+Varje bokstav, siffra och symbol har ett unikt nummer.
+
+```python
+ord('A')    # → 65   (tecken till siffra)
+chr(65)     # → 'A'  (siffra till tecken)
+
+ord('a')    # → 97
+chr(97)     # → 'a'
+```
+
+| Tecken | ASCII-värde |
+|--------|-------------|
+| A | 65 |
+| Z | 90 |
+| a | 97 |
+| z | 122 |
+| 0 | 48 |
+| 9 | 57 |
+| mellanslag | 32 |
+
+---
+
 ## Kryptografi (CryptoHack / CTF)
 
 ```python
