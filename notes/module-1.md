@@ -6,32 +6,11 @@
 
 ### CIA-triaden
 
-![CIA Definitions](module-1/cia-definitions.png)
-
-**Confidentiality**
-> The information is safe from accidental or international disclosure.
-
-Bara behöriga personer får se informationen. Om någon obehörig läser, kopierar eller stjäl data — är Confidentiality bruten.
-- Attacker: Phishing, Sniffing, Credential dumping
-- Skydd: Kryptering, åtkomstkontroll, MFA
-
----
-
-**Integrity**
-> The information is safe from accidental or intentional modification or alteration.
-
-Data får inte manipuleras. Om någon ändrar, raderar eller förvanskar information utan tillstånd — är Integrity bruten.
-- Attacker: Man-in-the-Middle, SQL Injection, Rootkit
-- Skydd: Hashing, digitala signaturer, audit-loggar
-
----
-
-**Availability**
-> The information is available to authorized users when needed.
-
-System och data måste vara tillgängliga när de behövs. Om ett system slås ut — är Availability bruten.
-- Attacker: DDoS, Ransomware
-- Skydd: Redundans, DDoS-skydd, regelbundna backuper
+| | Princip | Betyder | Bryts av | Skyddas med |
+|---|---|---|---|---|
+| C | Confidentiality | Bara behöriga får se datan | Phishing, sniffing | Kryptering, MFA |
+| I | Integrity | Data får inte ändras obehörigt | MitM, SQL Injection | Hashing, signaturer |
+| A | Availability | System måste vara tillgängliga | DDoS, Ransomware | Backuper, redundans |
 
 ---
 
