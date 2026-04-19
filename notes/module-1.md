@@ -73,10 +73,16 @@ for n in nums:
 
 # Avkoda Base64
 import base64
-base64.b64decode("SGVsbG8=")   # = b'Hello'
+base64.b64decode("SGVsbG8=")                  # = b'Hello'
 
 # Avkoda Hex
-bytes.fromhex("48656c6c6f")    # = b'Hello'
+bytes.fromhex("48656c6c6f")                   # = b'Hello'
+
+# Koda Hex → Base64 (två steg, inifrån och ut)
+base64.b64encode(bytes.fromhex("72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"))
+# Steg 1: bytes.fromhex() → översätter hex-text till rå bytes
+# Steg 2: b64encode()     → kodar bytes till Base64
+# OBS: b64encode() kräver bytes, INTE en vanlig sträng
 
 # XOR två värden
 0x32 ^ 81   # = 99
