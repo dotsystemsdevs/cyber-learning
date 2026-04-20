@@ -108,6 +108,17 @@ XOR jämför två tal bit för bit:
   01100001   (97 = 'a')
 ```
 
+**Egenskaper:**
+
+| Egenskap | Formel | Betyder |
+|----------|--------|---------|
+| Commutative | A ⊕ B = B ⊕ A | Ordningen spelar ingen roll |
+| Associative | A ⊕ (B ⊕ C) = (A ⊕ B) ⊕ C | Parenteser spelar ingen roll |
+| Identity | A ⊕ 0 = A | XOR med 0 ändrar ingenting |
+| Self-Inverse | A ⊕ A = 0 | Något XOR med sig självt = 0 |
+
+Self-Inverse är viktig i krypto: om `flagga ⊕ nyckel = krypterad`, då är `krypterad ⊕ nyckel = flagga`.
+
 ```python
 108 ^ 13        # XOR två värden = 97
 
