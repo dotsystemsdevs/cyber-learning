@@ -48,58 +48,8 @@ Används ofta i CTF för att dölja text som en lista med siffror.
 | { | 123 |
 | } | 125 |
 
-### Verktyg
-- [CyberChef](https://gchq.github.io/CyberChef/) — dekryptera nästan vad som helst
-- [Hashcat](https://hashcat.net/hashcat/) — cracka hash-lösenord
-
----
-
-## Kommandon — Python (krypto)
-
-### ASCII — tecken och siffror
-```python
-ord('A')        # Tecken → siffra = 65
-chr(65)         # Siffra → tecken = 'A'
-
-# Avkoda en lista med ASCII-tal till text
-nums = [99, 114, 121, 112, 116, 111, 123, ...]
-print(''.join(chr(n) for n in nums))   # = crypto{ASCII_pr1nt4bl3}
-
-# Loopa ett tecken i taget
-for n in nums:
-    print(chr(n))
-```
-
-### Hex
-```python
-bytes.fromhex("48656c6c6f")   # Hex → bytes = b'Hello'
-```
-
-### Base64
-```python
-import base64
-base64.b64decode("SGVsbG8=")  # Base64 → bytes = b'Hello'
-base64.b64encode(b"Hello")    # bytes → Base64 = b'SGVsbG8='
-
-# Hex → Base64 (gå via bytes, aldrig direkt från sträng)
-base64.b64encode(bytes.fromhex("72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"))
-```
-
-### Big Integers (PyCryptodome)
-```python
-from Crypto.Util.number import long_to_bytes, bytes_to_long
-
-long_to_bytes(11515195063862318899931685488813747395775516287289682636499965282714637259206269)
-# = b'crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}'
-
-bytes_to_long(b"Hello")   # bytes → stort heltal
-```
-
 ### XOR
-
-XOR jämför två tal bit för bit:
-- Samma bitar → 0
-- Olika bitar → 1
+XOR jämför två tal bit för bit — samma bitar ger 0, olika ger 1.
 
 ```
   01101100   (108 = 'l')
@@ -107,8 +57,6 @@ XOR jämför två tal bit för bit:
 -----------
   01100001   (97 = 'a')
 ```
-
-**Egenskaper:**
 
 | Egenskap | Formel | Betyder |
 |----------|--------|---------|
@@ -119,12 +67,45 @@ XOR jämför två tal bit för bit:
 
 Self-Inverse är viktig i krypto: om `flagga ⊕ nyckel = krypterad`, då är `krypterad ⊕ nyckel = flagga`.
 
-```python
-108 ^ 13        # XOR två värden = 97
+### Verktyg
+- [CyberChef](https://gchq.github.io/CyberChef/) — dekryptera nästan vad som helst
+- [Hashcat](https://hashcat.net/hashcat/) — cracka hash-lösenord
 
-# XOR hela listan
-ords = [81, 64, 75]
-''.join(chr(o ^ 0x32) for o in ords)
+---
+
+## Kommandon — Python (krypto)
+
+### ASCII
+```python
+ord('A')                          # Tecken → siffra = 65
+chr(65)                           # Siffra → tecken = 'A'
+''.join(chr(n) for n in nums)     # Lista → text
+```
+
+### Hex
+```python
+bytes.fromhex("48656c6c6f")       # Hex → bytes = b'Hello'
+```
+
+### Base64
+```python
+import base64
+base64.b64decode("SGVsbG8=")      # Base64 → bytes = b'Hello'
+base64.b64encode(b"Hello")        # bytes → Base64 = b'SGVsbG8='
+base64.b64encode(bytes.fromhex("72bca9..."))  # Hex → Base64
+```
+
+### Big Integers
+```python
+from Crypto.Util.number import long_to_bytes, bytes_to_long
+long_to_bytes(11515195063862318899931685488813747395775516287289682636499965282714637259206269)
+bytes_to_long(b"Hello")           # bytes → stort heltal
+```
+
+### XOR
+```python
+108 ^ 13                          # XOR två värden = 97
+''.join(chr(o ^ 0x32) for o in ords)  # XOR hela listan
 ```
 
 ---
