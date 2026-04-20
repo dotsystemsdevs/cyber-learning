@@ -96,6 +96,18 @@ bytes_to_long(b"Hello")   # bytes → stort heltal
 ```
 
 ### XOR
+
+XOR jämför två tal bit för bit:
+- Samma bitar → 0
+- Olika bitar → 1
+
+```
+  01101100   (108 = 'l')
+^ 00001101   (13)
+-----------
+  01100001   (97 = 'a')
+```
+
 ```python
 108 ^ 13        # XOR två värden = 97
 
